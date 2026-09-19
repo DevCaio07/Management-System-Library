@@ -1,0 +1,1 @@
+# Camada model: onde fica as classes puras do négocio.
