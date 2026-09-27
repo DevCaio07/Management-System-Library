@@ -1,10 +1,9 @@
-from model.usuario import Usuario_dados 
-#Sintaxe para importar dados e atributos de uma outra classe
-class usuario_repository: 
+import json
+from model.usuario import Dados_dos_Usuarios
+class DadosJson: 
     def __init__(self):
-       self.Lista_de_usuarios = []
+        self.data = Dados_dos_Usuarios()
 
-def salvar_usuario(self,Dados_usuarios):
-    self.Lista_de_usuarios.append(Dados_usuarios)
-    
+    with open("Dados_dos_Usuarios.json", "w", encoding= "utf-8") as arquivo: 
+        json.dump(Dados_dos_Usuarios, arquivo, ensure_ascii=False, indent=4)
     
