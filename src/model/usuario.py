@@ -9,13 +9,13 @@ class Usuario_dados:
 @property
 def nome_do_usuario(self):
     return self.nome_do_usuario
-
+@property
 def data_nascimento(self): 
     return self.data_nascimento
- 
+@property 
 def cadastro_CPF(self): 
     return self.cadastro_CFP 
-
+@property
 def idade_do_usuario(self): 
         return self.idade_do_usuario
 
@@ -37,13 +37,17 @@ def InserirDados(self):
     idade_do_usuario = input("Insira sua idade") 
     self.enviar_para_lista(idade_do_usuario)
 
-    Dados_usuarios = {
-         "Nome": nome_do_usuario,
-         "Data de Nascimento": data_nascimento,
-         "CPF": cadastro_CPF,
-         "Idade": idade_do_usuario
-    }
 
-    return Dados_usuarios
+class Dados_dos_Usuarios: 
+    def __init__(self):
+         
+        dados_usuarios = {
+             "Nome": nome_do_usuario,
+            "Data de Nascimento": data_nascimento,
+            "CPF": cadastro_CPF,
+            "Idade": idade_do_usuario
 
+         
+    }           
+    
     
