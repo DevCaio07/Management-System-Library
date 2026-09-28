@@ -1,6 +1,10 @@
-from model.usuario import InserirDados
+from .model.usuario import InserirDados
 
-class InserirUser: 
-    def user(self): 
-        self.user = InserirDados()
-        print(self.user)
+
+class Main: 
+    def executar(self): 
+        print("Iniciando Sistema de Gerenciamento de Biblioteca")
+
+        data_user = InserirDados()
+
+        print(data_user)
