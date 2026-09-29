@@ -12,4 +12,4 @@ class Validar_idade(Usuario_dados):
             print("Não é permitido usuários menores de idade")
             return 0 
 
-        
+

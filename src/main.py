@@ -7,7 +7,7 @@ class Main:
 
         data_user = InserirDados()
 
-        print(data_user)
+        
 
     if __name__ == '__executar':
         executar()
