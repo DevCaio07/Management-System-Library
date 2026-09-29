@@ -40,6 +40,16 @@ def InserirDados(self):
 
 class Dados_dos_Usuarios: 
     def __init__(self):
+         
+        dados_usuarios = {
+             "Nome": nome_do_usuario,
+            "Data de Nascimento": data_nascimento,
+            "CPF": cadastro_CPF,
+            "Idade": idade_do_usuario
+
+
+class Dados_dos_Usuarios: 
+    def __init__(self):
         self.dados_usuarios = {
              "Nome": nome_do_usuario,
             "Data de Nascimento": data_nascimento,
